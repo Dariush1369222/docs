@@ -1,58 +1,58 @@
-import Layout from "@/components/Layout";
-import Button from "@/components/Common/button";
-import Section from "@/components/Common/section";
-import Alert from "@/components/Common/alert";
-import Tabs from "@/components/Common/tab";
-import Step from "@/components/Common/step";
-import Card from "@/components/Common/card";
-import Important from "@/components/Common/important";
-import Highlight from "@/components/Common/highlight";
-import Link from "next/link";
-import PlatformIcon from "@/components/Common/icons";
-import {
-    GoArrowLeft,
+واردات لائوت از "@/components/Layout";
+واردات باتون از "@/components/مشترک/button";
+بخش واردات از "@/components/مشترک/section";
+واردات آلرت از "@/components/مشترک/alert";
+واردات تاب از "@/components/مشترک/tab";
+گام واردات از "@/components/Common/step";
+کارت واردات از "@/components/مشترک/کارت";
+مهم ترین واردات از "@/components/مشترک/مهم";
+واردات بالا از "@/components/مشترک/highlight";
+لینک وارد شده از "next/لینک";
+واردات پلاتفرم ایکون از "@/components/Common/icons";
+واردات {
+ گوآررولف، 
 
     
-} from "react-icons/go";
+} از "react-icons/go";
 
-import Head from "next/head";
+سر وارد شده از "آینده/سر";
 
 <Layout>
-<Head>
+<هد>
 <title>مستندات اتصال دامنه به برنامه - لیارا</title>
 <meta property="og:title" content="مستندات خدمات رایانش ابری لیارا" />
 <meta property="og:description" content="مستندات مربوط به اتصال دامنه به برنامه در لیارا"  />
-<meta property="og:image" content="https://files.liara.ir/liara/logos/liara-poster.jpg" />
+<meta property="og:image" content="https://files.liara.ir/liara/liara/liara-poster.jpg" />
 </Head>
 # اتصال دامنه به برنامه
 
 <hr className="mb-2" />
 
-یکی از مهم‌ترین بخش‌های یک برنامه، دامنه آن است. دامنه باعث می‌شود که کاربران به راحتی شما را در اینترنت پیدا کنند. 
+یکی از مهم‌ترین بخش‌های یک برنامه، دامنه آن است. دامنه باعث می‌شود که کاربران به راحتی شما را در اینترنت پیدا کنند.  
 یک دامنه با معنا، می‌تواند برای مشتریان شما نشان‌دهنده اعتبار و حرفه‌ای بودن کسب و کار شما باشد و SEO وب‌سایت شما را تا حد زیادی ارتقا دهد.
 
-<Section id="what-is-domain" title="دامنه چیست؟" />
+<Section id="What-is-domain" title="دامنه چیست؟" />
 دامنه یک نشانی یا آدرس یکتاست که برای شناسایی و دسترسی به یک وبسایت یا برنامه در اینترنت استفاده می‌شود.
 
 <Section id="managing-domains" title="مدیریت دامنه در لیارا" />
 شما می‌توانید دامنه خریداری شده خود را بدون انجام کار اضافی و با چند کلیک، به برنامه خود در لیارا، متصل کنید و آن را به سادگی هرچه تمام، در لیارا، مدیریت کنید. در ادامه بخوانید:
 
 <div className="h-4" />
-<div className="grid md:grid-cols-3 gap-4">
-            {[
-      {
-        title: "اضافه کردن دامنه به برنامه",
-        link: "./add-domain"
-      },
-      {
-        title: "ساخت زیر دامنه www",
-        link: "./add-www-subdomain"
-      },
-      {
-        title: "اضافه کردن زیر دامنه دلخواه",
-        link: "./add-subdomains"
-      },
-      {
+<div className="grid md: grid-cols-3 شکاف-4">
+ {[ 
+       { 
+         title: "اضافه کردن دامنه به برنامه", 
+ لینک: "/add-domain" 
+       }, 
+       { 
+         title: "ساخت زیر دامنه www", 
+ لینک: "/add-www-subdomain" 
+       }, 
+       { 
+         title: "اضافه کردن زیر دامنه دلخواه", 
+ لینک: "/add-subdomains" 
+       }, 
+       { 
         title: "تهیه گواهی SSL برای دامنه",
         link: "./enable-ssl"
       },
